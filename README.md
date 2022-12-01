@@ -70,3 +70,46 @@ T-test Lot 3
 
 Lot 3: p-value = .04168, alpha = .05
 .04 < .05, we reject the null hypothesis. We are 95% confident that the true mean lies between 1492.43 and 1499.85 from this sample data. The sample data is significantly different than 1500. The mean or average is 1496.14. Not statistically like the entire manufacture lot, nor Lot 1 or Lot 2.
+
+
+## Study Design: MechaCar vs Competition
+
+**•	What metric or metrics are you going to test?**
+
+Two aspects of safety:
+
+1)	crashworthiness = how good a vehicle protects its occupants in a collision
+
+    o	look at injury risk in real time crashes
+  
+    o	crash dummy reports 
+  
+    o	deformation patterns of the vehicles 
+
+2)	crash avoidance and mitigation = technology that can prevent a crash or lessen the severity
+  
+    o	forward collision avoidance technology
+    
+         -lasers, radar, cameras that detect other vehicles and objects in front of them
+
+    o	rear collision avoidance technology
+    
+         -lasers, radar, cameras that detect other vehicles and objects in front of them (when backing up or in low   visibility)
+
+    o	collision mitigation system
+    
+          -alter drivers, potential collision via visual and audiable alerts (allow for corrective action via driver)
+
+**•	What is the null hypothesis or alternative hypothesis?**
+
+Null Hypothesis (Ho): MechaCar 2022 lineups are priced correctly based on safety metrics. 
+Alternative Hypothesis (Ha): MechaCar 2022 lineups are not priced correctly based on safety metrics. 
+
+**•	What statistical test would you use to test the hypothesis? And why?**
+
+Regression analysis, wanting to show the relationship between two or more variables.
+**
+•	What data is needed to run the statistical test?**
+
+Real accidents, drilling down variables like width, length, height, weight, wheelbase, steering ratio, BHP (brake horsepower). There could be a list of several other dozen variables that would factor into this statistical test. 
+
